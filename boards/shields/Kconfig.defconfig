@@ -1,0 +1,18 @@
+
+if SHIELD_LAMBPAD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "LambPad"
+
+config  ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LAMBPAD_LEFT || SHIELD_LAMBPAD_RIGHT
+
+config  ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+

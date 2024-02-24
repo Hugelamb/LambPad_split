@@ -1,0 +1,12 @@
+file_format: "1"
+id: lambpad
+name: LambPad
+type: shield
+url: https://github.com/Hugelamb/LambPad_split.git
+requires: [pro_micro]
+features: 
+  - keys
+  - display
+siblings:
+  - lambpad_left
+  - lambpad_right

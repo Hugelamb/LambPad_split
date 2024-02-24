@@ -1,0 +1,7 @@
+# Created by Hugh Lam (2024)
+
+config SHIELD_LAMBPAD_LEFT
+    def_bool $(shields_list_contains, lambpad_left)
+    
+config SHIELD_LAMBPAD_RIGHT 
+    def_bool $(shields_list_contains,lambpad_right)
