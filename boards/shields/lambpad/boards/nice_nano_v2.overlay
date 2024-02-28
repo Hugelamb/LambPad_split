@@ -26,7 +26,7 @@
     };
 };
 
-&pro_micro_spi {
+/* &pro_micro_spi {
     compatible = "nordic,nrf-spim";
     status = "okay";
 
@@ -38,14 +38,14 @@
 
     ls0xx:  ls0xx@1 {
         compatible = "sharp,ls0xx";
-        //label = "DISPLAY";
+        label = "DISPLAY";
         spi-max-frequency = <2000000>;
         reg = <1>;
         width = <144>;
         height = <168>;
     };
 };
-
+ */
 &pro_micro_i2c {
     status = "disabled";
 };
