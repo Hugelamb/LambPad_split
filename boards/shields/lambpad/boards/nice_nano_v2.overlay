@@ -37,7 +37,7 @@
     ls0xx:  ls0xx@1 {
         compatible = "sharp,ls0xx";
         label = "DISPLAY";
-        SPI settings 
+        /*SPI settings*/ 
         spi-max-frequency = <2000000>;
         reg = <1>;
 
