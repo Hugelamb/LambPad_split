@@ -36,11 +36,11 @@
 
     cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
 
-    ls0xx:  ls0xx@0 {
+    ls0xx:  ls0xx@1 {
         compatible = "sharp,ls0xx";
-        label = "DISPLAY";
+        //label = "DISPLAY";
         spi-max-frequency = <2000000>;
-        reg = <0>;
+        reg = <1>;
         width = <144>;
         height = <168>;
     };
