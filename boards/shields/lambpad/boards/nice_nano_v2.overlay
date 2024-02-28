@@ -1,5 +1,3 @@
-// note this file was copied in from the lily58 folder within the main zmk repository,
-// credit should be given to the creator 'The ZMK Contributors'.
 #include <dt-bindings/led/led.h>
 
 /*
@@ -26,7 +24,7 @@
     };
 };
 
-/* &pro_micro_spi {
+&spi0 {
     compatible = "nordic,nrf-spim";
     status = "okay";
 
@@ -39,8 +37,11 @@
     ls0xx:  ls0xx@1 {
         compatible = "sharp,ls0xx";
         label = "DISPLAY";
+        /* SPI settings */
         spi-max-frequency = <2000000>;
         reg = <1>;
+
+        /* Display Dimensions */
         width = <144>;
         height = <168>;
     };
