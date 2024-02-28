@@ -24,7 +24,7 @@
     };
 };
 
-&spi0 {
+/* &spi0 {
     compatible = "nordic,nrf-spim";
     status = "okay";
 
@@ -37,15 +37,15 @@
     ls0xx:  ls0xx@1 {
         compatible = "sharp,ls0xx";
         label = "DISPLAY";
-        /*SPI settings*/ 
+        // SPI settings 
         spi-max-frequency = <2000000>;
         reg = <1>;
 
-        /* Display Dimensions */ 
+        // Display Dimensions
         width = <144>;
         height = <168>;
     };
-};
+}; */
 
 &pro_micro_i2c {
     status = "disabled";
