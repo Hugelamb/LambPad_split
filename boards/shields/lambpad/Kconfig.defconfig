@@ -24,7 +24,7 @@ choice ZMK_DISPLAY_STATUS_SCREEN
 endchoice
 
 config ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
-	select LV_USE_LABEL                                                                                                                                                                rff
+	select LV_USE_LABEL
 
 if ZMK_DISPLAY
 
