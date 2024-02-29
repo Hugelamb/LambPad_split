@@ -20,8 +20,8 @@
 # board: ["nice_nano_v2"]
 # shield: ["lambpad_left","lambpad_right"]
 include:
-    - board: nice_nano_v2
-      shield: lambpad_left
+  - board: nice_nano_v2
+    shield: lambpad_left
     # - board: nice_nano_v2
     #   shield: lambpad_right
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
