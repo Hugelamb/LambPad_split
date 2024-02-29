@@ -21,6 +21,8 @@ config ZMK_DISPLAY
 choice ZMK_DISPLAY_STATUS_SCREEN
         default ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
 
+endchoice
+
 if ZMK_DISPLAY
 
 choice LV_FONT_DEFAULT
@@ -62,6 +64,5 @@ config ZMK_USB
         default y
 
 
-endif # SHIELD_LAMBPAD_LEFT || SHIELD_LAMBPAD_RIGHT
-
+endif
 
