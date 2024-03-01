@@ -14,6 +14,7 @@ if SHIELD_LAMBPAD_LEFT || SHIELD_LAMBPAD_RIGHT
 config  ZMK_SPLIT
     default y
 
+# Display Settings #
 config ZMK_DISPLAY
     select LV_USE_CONT
     select LV_FONT_MONTSERRAT_26
